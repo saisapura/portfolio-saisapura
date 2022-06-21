@@ -1,34 +1,41 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "cover": "/project/cover-img/bookdisc.png",
+            "title": "Bookdisc",
+            "description": "Bookdisc is a mini-site that brings familiarity to the readers looking at it as a book, with the key features like search & highlight shown, and using fetch and wrapping it together inside of it.",
+            "url": "https://bookdisc.netlify.app/"
         },
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "cover": "/project/cover-img/omnifood.png",
+            "title": "Responsive Website",
+            "description": "Omnifood is a Responsive Website, created using HTML, CSS, and a little bit of Javascript to horn up to my expertise in using flexbox, grid, and tricks in CSS and Javascript.",
+            "url": "https://omnifood-saisapura.netlify.app/"
         },
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "cover": "/project/cover-img/weather.png",
+            "title": "Weather App",
+            "description": "This Weather App will assist users getting the weather of any location based on their input data in the search bar. Every image returned by the Unsplash API dynamic background image URL.",
+            "url": "https://weather-sai.netlify.app/"
         },
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "cover": "/project/cover-img/mapty.png",
+            "title": "Mapty App",
+            "description": "Mapty App let users lock their workout type, distance, duration, and distance based on the their starting point, location.",
+            "url": "https://mapty-saisapura.netlify.app/"
         },
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "cover": "/project/cover-img/bankistapp.png",
+            "title": "Bankist App",
+            "description": "Bankist app - mininmalist online banking interface which shows the account movements, balance, summary data, and options -transfer, request loan, and close account.",
+            "url": "https://bankist-app-saisapura.netlify.app/"
+        },
+
+        {
+            "cover": "/project/cover-img/bankistweb.png",
+            "title": "Bankist Website",
+            "description": "Bankist website is a marketing website created during my exploration working with advanced DOM and Events.",
+            "url": "https://bankist-website-saisapura.netlify.app/"
         }
     ]
 }

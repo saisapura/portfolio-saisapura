@@ -5,10 +5,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faLinkedin,
   faGithub,
-  faYoutube,
-  faSkype,
+  faDiscord,
+  faTwitter
 } from '@fortawesome/free-brands-svg-icons'
-import { faHome, faUser, faEnvelope, faSuitcase } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faUser, faEnvelope, faSuitcase, faLaptop, faGears, faUsersGear, faUserAlt, faUserGear, faGear, faLightbulb, faTablet, faEye, faPaperclip, faEyeLowVision, faBullseye, faEyedropper, faPencil, faKeyboard, faMousePointer, faComputerMouse, faLaptopCode } from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
 
 const Sidebar = () => {
@@ -25,9 +25,14 @@ const Sidebar = () => {
         <NavLink activeclassname="active" className="about-link" to="/about">
           <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
         </NavLink>
+        <NavLink activeclassname="active" className="skill-link" to="/skill">
+          <FontAwesomeIcon icon={faLaptopCode} color="#4d4d4e" />
+        </NavLink> 
         <NavLink activeclassname="active" className="portfolio-link" to="/portfolio">
-          <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faGear} color="#4d4d4e" />
         </NavLink>
+
+
         <NavLink
           activeclassname="active"
           className="contact-link"
@@ -39,16 +44,7 @@ const Sidebar = () => {
       <ul>
         <li>
           <a
-            href="https://www.linkedin.com/in/slobodan-gaji%C4%87-006bb8b8/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://github.com/bobangajicsm"
+            href="https://www.linkedin.com/in/sapura-chewae-8a6494219/"
             target="_blank"
             rel="noreferrer"
           >
@@ -57,16 +53,26 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href="https://www.youtube.com/channel/UCBu5ulO4d-d47lAVybpRTkw"
-            rel="noreferrer"
+            href="https://github.com/saisapura"
             target="_blank"
+            rel="noreferrer"
           >
-            <FontAwesomeIcon icon={faYoutube} color="#4d4d4e" />
+            <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
           </a>
         </li>
         <li>
-          <a href="skype:live:bobangajicsm" rel="noreferrer" target="_blank">
-            <FontAwesomeIcon icon={faSkype} color="#4d4d4e" />
+          <a 
+            href="https://twitter.com/sapura_ch"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faTwitter} color="#4d4d4e" />
+          </a>
+        </li>
+        <li>
+          <a href="https://discord.com/channels/@saisapura#8911" 
+          rel="noreferrer" target="_blank">
+            <FontAwesomeIcon icon={faDiscord} color="#4d4d4e" />
           </a>
         </li>
       </ul>

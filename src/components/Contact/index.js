@@ -8,7 +8,7 @@ import './index.scss'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  const form = useRef()
+  const refForm = useRef()
 
   useEffect(() => {
     return setTimeout(() => {
@@ -21,10 +21,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        'gmail',
-        'template_YeJhZkgb',
-        form.current,
-        'your-token'
+        'service_vvnmdvc',
+        'template_e7txcx9',
+        refForm.current,
+        'QqHpFQ2ojvYwM-juL'
       )
       .then(
         () => {
@@ -49,12 +49,10 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in freelance opportunities - especially ambitious or
-            large projects. However, if you have other request or question,
-            don't hesitate to contact me using below form either.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum repellendus laborum corrupti temporibus quisquam inventore fugit incidunt quaerat eum exercitationem iste quo, beatae ipsa quis reprehenderit error architecto ullam autem.
           </p>
           <div className="contact-form">
-            <form ref={form} onSubmit={sendEmail}>
+            <form ref={refForm} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
                   <input placeholder="Name" type="text" name="name" required />
@@ -90,20 +88,20 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Slobodan Gajić,
+          Sapura Chewae,
           <br />
-          Serbia,
+          Cieszyn, Poland. <br />
           <br />
-          Branka RadiČevića 19, 22000 <br />
-          Sremska Mitrovica <br />
+          Dzięgielów ul.Księdza Karola Kulisza 10,<br /> 
+          43-445 Dzięgielów 
           <br />
-          <span>freelancerslobodan@gmail.com</span>
+          <span>sapura.chw@gmail.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[44.96366, 19.61045]} zoom={13}>
+          <MapContainer center={[49.7283571,18.6979279,17]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[44.96366, 19.61045]}>
-              <Popup>Sloba lives here, come over for a cup of coffee :)</Popup>
+            <Marker position={[49.7283571, 18.6979279,17]}>
+              <Popup>Sapura lives happily here :)</Popup>
             </Marker>
           </MapContainer>
         </div>
