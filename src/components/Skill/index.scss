@@ -1,70 +1,54 @@
-.background {
-    position: relative;
-    height: 100vh;
-    overflow: hidden;
+
+span {
+  color: #ffd700;
+}
+.svg1 {
+  animation: 12s 1s bounceIn; 
+  animation-iteration-count:infinite;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 100px;
+  left:auto;
+  margin: auto;
+}
+
+.monkey {
+  stroke-width: 2px;
+  stroke-dashoffset: -2000;
+  stroke-dasharray: 2000;
+  animation-name: monkey;
+  animation-duration: 12s;
+  animation-iteration-count:infinite;
+  animation-direction: alternate;
+  
+  }
+ 
+    @keyframes monkey {
+      
+      0% {
+        stroke-dashoffset: -2000;
+        stroke: #ffd700;
+        
+      }
+    
+      40% {
+        stroke: #fd7e14;
+    
+      }
+      60% {
+        stroke: #fff;
+
+      }
+      80% {
+        stroke: #fd7e14;
+        
+      }
+      100% {
+      stroke-dashoffset:0;  
+      stroke: #ffd700;
+      
+    }
+  
   }
   
-  .cube {
-    position: absolute;
-    top: 80vh;
-    left: 45vw;
-    width: 10px;
-    height: 10px;
-    border: solid 1px darken(#345668, 8%);
-    transform-origin: top left;
-    transform: scale(0) rotate(0deg) translate(-50%, -50%);
-    animation: cube 12s ease-in forwards infinite;
-    
-    &:nth-child(2n) {
-      border-color: lighten(#1b4155, 20%);
-      animation-delay: 4s;
-      transform: scale(0) rotate(0deg) translate(-30%, -50%);
-    }
-    
-    &:nth-child(2) {
-      animation-delay: 2s;
-      left: 25vw;
-      top: 15vh;
-      z-index: -1;
-      
-    }
-    
-    &:nth-child(3) {
-      animation-delay: 4s;
-      left: 75vw;
-      top: 50vh;
-      border-color: lighten(#ffd900, 20%);
-    }
-    
-    &:nth-child(4) {
-      animation-delay: 6s;
-      left: 90vw;
-      top: 10vh;
-      
-    }
-    
-    &:nth-child(5) {
-      animation-delay: 8s;
-      left: 10vw;
-      top: 85vh;
-      
-    }
-    
-    &:nth-child(6) {
-      animation-delay: 10s;
-      left: 50vw;
-      top: 10vh;
-   
-    }
-  }
-  
-  @keyframes cube {
-    from {
-      transform: scale(0) rotate(0deg) translate(-50%, -50%);   
-      opacity: 1;
-    }
-    to {
-      transform: scale(20) rotate(960deg) translate(-50%, -50%); 
-      opacity: 0;
-    }
-  }

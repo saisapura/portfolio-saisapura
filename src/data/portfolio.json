@@ -9,19 +9,19 @@
         {
             "cover": "/project/cover-img/omnifood.png",
             "title": "Responsive Website",
-            "description": "Omnifood is a Responsive Website, created using HTML, CSS, and a little bit of Javascript to horn up to my expertise in using flexbox, grid, and tricks in CSS and Javascript.",
+            "description": "Omnifood is a Responsive Website, created using HTML, CSS, and Javascript to horn up the expertise in using flexbox, grid, and tricks in CSS and Javascript.",
             "url": "https://omnifood-saisapura.netlify.app/"
         },
         {
             "cover": "/project/cover-img/weather.png",
             "title": "Weather App",
-            "description": "This Weather App will assist users getting the weather of any location based on their input data in the search bar. Every image returned by the Unsplash API dynamic background image URL.",
+            "description": "This Weather app will assist users getting the weather of any location based on their input location in the search bar. Every image returned by the Unsplash API dynamic background image URL.",
             "url": "https://weather-sai.netlify.app/"
         },
         {
             "cover": "/project/cover-img/mapty.png",
             "title": "Mapty App",
-            "description": "Mapty App let users lock their workout type, distance, duration, and distance based on the their starting point, location.",
+            "description": "Mapty app let users lock their workout type, distance, duration, and distance based on the their starting point, location.",
             "url": "https://mapty-saisapura.netlify.app/"
         },
         {

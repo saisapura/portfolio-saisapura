@@ -39,7 +39,7 @@ const Contact = () => {
 
   return (
     <>
-      <div className="container contact-page">
+      <div className="container contact-page" style={{ userSelect: "none" }}>
         <div className="text-zone">
           <h1>
             <AnimatedLetters
@@ -49,7 +49,7 @@ const Contact = () => {
             />
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum repellendus laborum corrupti temporibus quisquam inventore fugit incidunt quaerat eum exercitationem iste quo, beatae ipsa quis reprehenderit error architecto ullam autem.
+          I'm interested in web development opportunities to work on various projects with positive people and other developers.
           </p>
           <div className="contact-form">
             <form ref={refForm} onSubmit={sendEmail}>
@@ -101,7 +101,7 @@ const Contact = () => {
           <MapContainer center={[49.7283571,18.6979279,17]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             <Marker position={[49.7283571, 18.6979279,17]}>
-              <Popup>Sapura lives happily here :)</Popup>
+              <Popup>Sapura lives happily here 😊</Popup>
             </Marker>
           </MapContainer>
         </div>

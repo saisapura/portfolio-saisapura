@@ -12,3 +12,74 @@ body {
   overflow: hidden;
   display: block;
 }
+
+/* 1440*/
+@media (max-width) {
+  .svg1 {
+    bottom: 0;
+    right: 256px;
+  }
+  .info-map {
+    left: 48%;
+  }
+}
+/*1088*/
+@media (max-width: 68em) {
+ .logo-container {
+   width: 300px;
+   height: 488px;
+ }
+ .stage-cube-cont  {
+   padding-top: 30%;
+ }
+  .portfolio-page .images-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .svg1 {
+    display: none;
+  }
+
+  .container.skill-page .text-zone  {
+    left: 20%;
+    width: 50%;
+  }
+
+}
+/*960*/
+@media(max-width: 60em) {
+  .logo-container {
+    display: none;
+  }
+  .home-page .text-zone {
+    left: 32%;
+  }
+  .container.about-page .text-zone {
+    left: 32%;
+  }
+  .cubespinner div {
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+  }
+  .container.skill-page .text-zone {
+    left: 32%;
+    width: 40%;
+}
+.info-map {
+  font-size: 14px;
+}
+.home-page h1 img {
+  width: 28px;
+}
+.container h1 span {
+  font-size: 42px;
+}
+.home-page .flat-button, .home-page .flat-button1 {
+  font-size: 10px;
+}
+.container p {
+  color: red;
+}
+
+}

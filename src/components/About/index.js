@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react'
 import {
   faAngular,
   faCss3,
-  faGitAlt,
   faHtml5,
   faJsSquare,
   faReact,
@@ -24,23 +23,23 @@ const About = () => {
 
   return (
     <>
-      <div className="container about-page">
+      <div className="container about-page" style={{ userSelect: "none" }}>
         <div className="text-zone">
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
+              strArray={['M','e,','', 'M','y','s','e','l','f','','&','', 'I']}
               idx={15}
             />
           </h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint voluptas quidem recusandae assumenda ipsam, numquam cupiditate repudiandae pariatur odio cumque.
+          <p datat>
+          I'm a self-taught developer with an International Business background. I have a strong passion for programming and enjoys creating beautiful websites, web applications, and dynamic user experiences.
           </p>
           <p align="LEFT">
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel esse, enim quo reiciendis asperiores repellendus soluta delectus ullam. Fuga, eveniet!
+          Well-organized person, problem-solver, and fast learner. Fan of outdoor activities, photography enthusiast, and monkeys lover.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo unde quo fuga facilis, dolorum pariatur ut nemo quam aspernatur enim, itaque esse mollitia ducimus dolor odit ea totam! Minus, cupiditate.
+          I am interested in the entire front-end world and working on various ambitious projects with positive people.
           </p>
         </div>
 

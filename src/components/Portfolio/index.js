@@ -22,7 +22,7 @@ const Portfolio = () => {
 
     const renderPortfolio = (portfolio) => {
         return (
-            <div className="images-container">
+            <div className="images-container" style={{ userSelect: "none" }}>
                 {
                     portfolio.map((port, idx) => {
                         return (
@@ -50,7 +50,7 @@ const Portfolio = () => {
 
     return (
         <>
-            <div className="container portfolio-page">
+            <div className="container portfolio-page" style={{ userSelect: "none" }}>
                 <h1 className="page-title">
                     <AnimatedLetters
                         letterClass={letterClass}

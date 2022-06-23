@@ -4,6 +4,7 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/logo-s.png'
 import Logo from './Logo'
+import Pdf from '../../assets/SAPURA CHEWAE.pdf'
 import './index.scss'
 
 const Home = () => {
@@ -35,7 +36,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="container home-page">
+      <div className="container home-page" style={{ userSelect: "none" }}>
         <div className="text-zone">
           <h1>
             <span className={letterClass}>H</span>
@@ -59,10 +60,12 @@ const Home = () => {
               idx={22}
             />
           </h1>
-          <h2>Front End Developer / JavaScript Lover / Creative Designer</h2>
+          <h2>Front-End Developer | JavaScript Lover | Creative Designer</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
+          
+          <a className="flat-button1"onClick={() => window.open(Pdf)} >VIEW RESUME</a>
         </div>
         <Logo />
       </div>
