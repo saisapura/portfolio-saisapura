@@ -44,10 +44,19 @@ body {
     left: 20%;
     width: 50%;
   }
+ .container.skill-page h1 {
+   line-height: 56px;
+ }
 
 }
 /*960*/
 @media(max-width: 60em) {
+  .nav-bar .logo img.sub-logo{
+    width: 32px;
+  }
+  .home-page h1 {
+    line-height: 36px;
+  }
   .logo-container {
     display: none;
   }
@@ -67,19 +76,130 @@ body {
     width: 40%;
 }
 .info-map {
-  font-size: 14px;
+  font-size: 12px;
+  padding: 11px;
+  width: 218px;
 }
 .home-page h1 img {
   width: 28px;
+  line-height: 42px;
 }
 .container h1 span {
   font-size: 42px;
+ 
 }
-.home-page .flat-button, .home-page .flat-button1 {
+.home-page .flat-button, 
+.home-page .flat-button1 {
   font-size: 10px;
 }
-.container p {
-  color: red;
+.home-page .flat-button {
+  padding: 10px 22px;
 }
 
 }
+
+/*672*/
+@media(max-width: 42em) {
+
+  .nav-bar {
+    width: 43px;
+  }
+  .container h1 span {
+    font-size: 32px;
+  }
+  .home-page h1 img {
+    width: 20px;
+  }
+  .home-page h2  {
+    font-size: 10px;
+  }
+  .container.about-page p {
+    font-size: 12px;
+    font-weight: 300;
+    font-family: sans-serif;
+  }
+
+  .portfolio-page .images-container{
+  grid-template-columns: repeat(1, 1fr);
+  }
+  .portfolio-page .image-box .title {
+    font-size: 14px;
+    margin: 12px 0 10px 12px;
+  }
+  .container.skill-page p {
+    font-size:  12px;
+  }
+  .portfolio-page h1.page-title {
+    margin-left: 56px;
+}
+.map-wrap, .info-map {
+  display: none;
+}
+.info-map span {
+  font-size: 14px;
+}
+.container.contact-page .text-zone {
+  left:20%;
+  width: 65%;
+}
+} 
+/*528*/
+@media(max-width: 33em) {
+.nav-bar .logo img, 
+.nav-bar nav, 
+.nav-bar ul  {
+  display: none;
+}
+.nav-bar .nav-burger {
+  color: #ffd700;
+  text-align: center;
+  z-index: 6;
+  font-size: 24px;
+  position: absolute;
+  left: 25%;
+  display: block;
+  width: 1;
+  text-align: center;
+  opacity: 1;
+}
+.container h1 span {
+  font-size: 24px;
+}
+.home-page h1 img {
+  width: 16px;
+}
+.home-page h1 {
+  line-height: 18px;
+}
+.tags {
+  font-size: 14px;
+}
+}
+.home-page h1:before, .home-page h1:after {
+  font-size: 14px;
+}
+.home-page h2 {
+  display: none;
+}
+.portfolio-page .image-box .description {
+  font-size: 14px;
+}
+
+@media(max-width:26em) {
+  .home-page .text-zone {
+    width: 67%;
+  }
+  .container h1 span {
+    font-size: 18px;
+}
+.home-page h1 {
+  line-height: 12px;
+}
+.home-page h1 img {
+  width: 14px;
+}
+.home-page .flat-button, .home-page .flat-button1 {
+  font-size: 8px;
+}
+}
+

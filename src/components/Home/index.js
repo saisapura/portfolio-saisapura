@@ -36,7 +36,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="container home-page" style={{ userSelect: "none" }}>
+      <div className="container home-page" style={{ userSelect: 'none' }}>
         <div className="text-zone">
           <h1>
             <span className={letterClass}>H</span>
@@ -64,8 +64,10 @@ const Home = () => {
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
-          
-          <a className="flat-button1"onClick={() => window.open(Pdf)} >VIEW RESUME</a>
+
+          <a className="flat-button1" onClick={() => window.open(Pdf)}>
+            VIEW RESUME
+          </a>
         </div>
         <Logo />
       </div>

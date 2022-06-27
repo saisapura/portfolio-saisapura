@@ -1,10 +1,11 @@
+
 .nav-bar {
   background: #181818;
   width: 60px;
   height: 100%;
   position: absolute;
   top: 0;
-  z-index: 3;
+  z-index: 9999;
   min-height: 500px;
 
   .logo {
@@ -133,4 +134,20 @@
       }
     }
   }
+
+  .nav-burger {
+    color: #ffd700;
+    text-align: center;
+    z-index: 6;
+      font-size: 28px;
+      position: absolute;
+      z-index: 6;
+      left: 28%;
+      bottom: 90%;
+      display: block;
+      width: 1;
+      text-align: center;
+      display: none;
+  }
+ 
 }
