@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/logo-s.png'
-import Logo from './Logo'
 import Pdf from '../../assets/SAPURA CHEWAE.pdf'
 import './index.scss'
 
@@ -69,7 +68,7 @@ const Home = () => {
             VIEW RESUME
           </a>
         </div>
-        <Logo />
+       <img className='big-s' src={LogoTitle} alt="s" />
       </div>
 
       <Loader type="pacman" />

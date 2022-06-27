@@ -25,7 +25,7 @@ body {
 }
 /*1088*/
 @media (max-width: 68em) {
- .logo-container {
+  .home-page .big-s {
    width: 300px;
    height: 488px;
  }
@@ -57,7 +57,7 @@ body {
   .home-page h1 {
     line-height: 36px;
   }
-  .logo-container {
+  .home-page .big-s {
     display: none;
   }
   .home-page .text-zone {
@@ -145,7 +145,7 @@ body {
 } 
 /*528*/
 @media(max-width: 33em) {
-.nav-bar .logo img, 
+  .nav-bar .logo img,
 .nav-bar nav, 
 .nav-bar ul  {
   display: none;
