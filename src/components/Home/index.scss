@@ -18,9 +18,9 @@
 
     &:before {
       content: '<h1>';
-      font-family: 'La Belle Aurore', cursive;
+      font-family: 'monospace', cursive;
       color: #ffd700;
-      font-size: 18px;
+      font-size: 14px;
       position: absolute;
       margin-top: -40px;
       left: -15px;
@@ -28,10 +28,10 @@
     }
 
     &:after {
-      content: '<h1/>';
-      font-family: 'La Belle Aurore', cursive;
+      content: '</h1>';
+      font-family: 'monospace', cursive;
       color: #ffd700;
-      font-size: 18px;
+      font-size: 14px;
       position: absolute;
       margin-top: 18px;
       margin-left: 20px;
@@ -49,11 +49,11 @@
     }
   }
 
-  h2 {
+   h2 {
     color: #8d8d8d;
     margin-top: 20px;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
     font-family: sans-serif;
     letter-spacing: 3px;
     animation: fadeIn 1s 1.8s backwards;

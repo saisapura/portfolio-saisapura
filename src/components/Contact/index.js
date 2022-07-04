@@ -90,17 +90,13 @@ const Contact = () => {
         <div className="info-map">
           Sapura Chewae,
           <br />
-          Cieszyn, Poland. <br />
-          <br />
-          Dzięgielów ul.Księdza Karola Kulisza 10,<br /> 
-          43-445 Dzięgielów 
-          <br />
+          Warsaw, Poland. <br />
           <span>sapura.chw@gmail.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[49.7283571,18.6979279,17]} zoom={13}>
+          <MapContainer center={[50.213807918, 18.8671097,11]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[49.7283571, 18.6979279,17]}>
+            <Marker position={[50.2138079,18.8671097,11]}>
               <Popup>Sapura lives happily here 😊</Popup>
             </Marker>
           </MapContainer>

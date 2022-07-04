@@ -32,7 +32,7 @@ const Skill = () => {
           After months, I'd like to style my website to make it look good. Therefore, I took <span>HTML & CSS</span> course. During that time, I also played around with <span>Bootstrap</span> and CSS processor like <span>SASS </span>and <span>SCSS</span>.
           </p>
           <p>
-          Based on my knowledge, I successfully created responsive and modern-looking websites and real-world applications using HTML & CSS, and Javascript. I currently learn <span>React.js</span> and consistently horn up to my existing skills.
+          Based on my knowledge, I successfully created responsive and modern-looking websites and real-world applications using HTML & CSS, and Javascript. I currently learn <span>React.js</span> and consistently level up my existing skills.
           </p>
           
          </div>

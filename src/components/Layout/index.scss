@@ -4,24 +4,32 @@
   position: absolute;
 }
 
-.top-tags {
-  bottom: auto;
-  top: 35px;
-}
-
 .tags {
   color: #ffd700;
   opacity: 0.6;
   position: absolute;
-  bottom: 0;
-  left: 120px;
-  font-size: 18px;
-  font-family: 'La Belle Aurore', cursive;
+  bottom: 5px;
+  left: 100px;
+  font-size: 14px;
+  font-family: 'monospace', cursive;
   z-index: -1;
 }
-
-.bottom-tag-html {
-  margin-left: -20px;
+.top-tags-body {
+  top: 28px;
+  left: 120px;
+}
+.bottom-tags-body {
+  top: auto;
+  bottom: 28px;
+  left: 120px;
+}
+.top-tags-html {
+  bottom: auto;
+  top: 5px;
+}
+.bottom-tags-html {
+  top: auto;
+  bottom: 10px;
 }
 
 .container {
@@ -44,7 +52,7 @@
 .container.portfolio-page, .container.skill-page {
   
     h1 {
-      font-size: 53px;
+      font-size: 52px;
       font-family: 'Coolvetica';
       color: #ffd700;
       font-weight: 400;
@@ -55,32 +63,35 @@
 
       &:before {
         content: '<h1>';
-        font-family: 'La Belle Aurore', cursive;
+        font-family: 'monospace', cursive;
         color: #ffd700;
-        font-size: 18px;
+        font-size: 14px;
         position: absolute;
         margin-top: -10px;
         left: -10px;
+        line-height: 14px;
         opacity: 0.6;
-        line-height: 18px;
+        margin-top: -20px;
+
       }
 
       &:after {
-        content: '<h1/>';
-        font-family: 'La Belle Aurore', cursive;
+        content: '</h1>';
+        font-family: 'monospace', cursive;
         color: #ffd700;
-        font-size: 18px;
-        line-height: 18px;
+        font-size: 14px;
+        line-height: 14px;
         position: absolute;
         left: -30px;
-        bottom: -20px;
+        bottom: -10px;
         margin-left: 20px;
         opacity: 0.6;
+        margin-bottom: -10px;
       }
     }
 
     p {
-      font-size: 13px;
+      font-size: 14px;
       color: #fff;
       font-family: sans-serif;
       font-weight: 300;
