@@ -90,14 +90,14 @@ const Contact = () => {
         <div className="info-map">
           Sapura Chewae,
           <br />
-          Warsaw, Poland. <br />
+          Katowice, Poland. <br />
           <span>sapura.chw@gmail.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[50.213807918, 18.8671097,11]} zoom={13}>
+          <MapContainer center={[50.2138079, 18.8671082]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[50.2138079,18.8671097,11]}>
-              <Popup>Sapura lives happily here 😊</Popup>
+            <Marker position={[50.2138079, 18.8671082]}>
+              <Popup>Sapura is somewhere here 😊</Popup>
             </Marker>
           </MapContainer>
         </div>
