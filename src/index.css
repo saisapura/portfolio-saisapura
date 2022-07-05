@@ -345,6 +345,7 @@ body {
   display: none;
 }
 }
+/*912*/
 @media(max-width: 57em) {
   .home-page .big-s {
     display: none;
@@ -362,27 +363,218 @@ body {
 .home-page .flat-button, .home-page .flat-button1 {
   font-size: 12px;
 }
-.nav-bar .logo img {
+.nav-bar .logo img.sub-logo{
   display: none;
+}
+.nav-bar .logo img {
+width: 18px;
 }
 .nav-bar {
   width: 28px;
 }
-.nav-bar nav a:hover {
-  display: none;
-}
 .nav-bar nav a {
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 16px;
+  height: 36px;
+  line-height: 40px;
 }
-.nav-bar ul {
+.nav-bar nav a:after {
   display: none;
 }
-.nav-bar nav {
-  margin-top: -115px;
+.nav-bar ul li a {
+  font-size: 12px;
+  line-height: 12px;
+}
+.info-map {
+  top: 0;
+  font-size: 14px;
+  left: 51%;
+  width: 175px;
 }
 }
 
+/*768*/
+@media(max-width: 48em) {
+  .home-page h1:before {
+    font-size: 10px;
+    margin-top: -20px;
+  }
+  .container.contact-page h1:before, 
+  .container.about-page h1:before, 
+  .container.portfolio-page h1:before, 
+  .container.skill-page h1:before,
+  .container.contact-page h1:after, 
+  .container.about-page h1:after, 
+  .container.portfolio-page h1:after, 
+  .container.skill-page h1:after{
+    font-size: 10px;
+  }
+  .home-page h1:after {
+    font-size: 10px;
+    margin-left: 8px;
+    margin-top: 8px;
+  }
+  .home-page h1 img {
+    width: 20px;
+}
+  .home-page h2 {
+    display: none;
+  }  
+  .top-tags-html {
+    left: 50px;
+  }
+  .tags {
+    font-size: 10px;
+    left: 50px;
+  }
+  .top-tags-body {
+    left: 70px;
+  }
+  .bottom-tags-body {
+    left: 70px;
+  }
+  .home-page h1, 
+  .container.about-page h1,
+  .container.skill-page h1,
+  .container.portfolio-page h1,
+  .container.contact-page h1   {
+    font-size: 30px;
+    line-height: 30px;
+  }
+ 
+.home-page .flat-button, .home-page .flat-button1 {
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  padding: 4px 8px;
+}
+.container.about-page p, 
+.container.skill-page p,
+.container.contact-page p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.home-page .text-zone {
+  top: 45%;
+}
+.stage-cube-cont {
+  top: 20%;
+  left: 32%;
+  position: absolute;
+}
+.container.about-page .text-zone {
+  width: 65%;
+  top: 45%;
+}
+
+.container.skill-page .text-zone {
+  width: 70%;
+  top: 45%;
+}
+.map-wrap {
+  display: none;
+}
+
+.container.contact-page .text-zone {
+  width: 70%;
+  left: 10%;
+}
+.contact-form input[type=text], .contact-form input[type=email] {
+  height: 32px;
+  font-size: 14px;
+}
+.contact-form textarea {
+  font-size: 14px;
+}
+.contact-form ul li {
+  margin-bottom: 5px;
+}
+.info-map span {
+  font-size: 14px;
+}
+.contact-form .flat-button {
+  font-size: 10px;
+  padding: 4px 8px;
+}
+.portfolio-page .images-container .image-box .portfolio-image {
+  width: 90%;
+  height: 90%;
+}
+.portfolio-page .images-container .content {
+  width: 90%;
+  height: 16%;
+  bottom: 10px;
+}
+.portfolio-page .images-container .content .title {
+  font-size: 14px;
+  bottom: -9px;
+}
+.portfolio-page .images-container {
+  row-gap: 4px;
+}
+.portfolio-page .images-container .image-box {
+  height: 160px;
+}
+.portfolio-page .images-container .image-box:after {
+  width: 90%;
+  height: 90%;
+}
+.portfolio-page .images-container .content .description {
+  font-size: 12px;
+  width: 90%;
+  height:90%;
+  margin: -117px 18px;
+}
+.container.portfolio-page h1 {
+  margin-bottom: 0;
+}
+
+.portfolio-page h1.page-title {
+  margin-left: 10%;
+  margin-top: 20%;
+}
+}
+/*624*/
+@media(max-width: 39em) {
+  .portfolio-page .images-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .home-page h1, 
+  .container.about-page h1,
+  .container.skill-page h1,
+  .container.portfolio-page h1,
+  .container.contact-page h1   {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .home-page h1 img {
+    width: 16px;
+  }
+  .home-page .flat-button {
+    margin-top: 12px;
+  }
+  .home-page .flat-button1 {
+    margin-top: 12px;
+    padding: 4px 3px;
+  }
+  .home-page .text-zone {
+    top: 50%;
+    left: 15%;
+}
+.container.about-page .text-zone {
+  width: 70%;
+  top: 45%;
+  left: 18%;
+}
+.portfolio-page h1.page-title {
+  margin-left: 0%;
+  margin-top: 30%;
+}
+.container.contact-page .text-zone {
+  left: 15%;
+}
+}
 /* 1440*/
 /*
 @media (max-width:90em) {
