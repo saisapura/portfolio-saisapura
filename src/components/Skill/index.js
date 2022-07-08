@@ -29,10 +29,10 @@ const Skill = () => {
           My journey as a front-end developer <span>started in 2021 </span>when I accidentally typed &lt;h1&gt;Hello world&lt;/h1&gt; on a free coding website. A simple HTML tag has brought me great excitement. I afterward decided to learn <span>Javascript</span> and put my effort into it. 
           </p>
           <p align="LEFT">
-          After months, I'd like to style my website to make it look good. Therefore, I took <span>HTML & CSS</span> course. During that time, I also played around with <span>Bootstrap</span> and CSS processor like <span>SASS </span>and <span>SCSS</span>.
+          After months of learning Javascript, I would like to expand my styling knowledge for my website to make it look good. Therefore, I took <span>HTML & CSS</span> course. During that time, I also played around with <span>Bootstrap</span> and CSS processors such like <span>SASS </span>and <span>SCSS</span>.
           </p>
           <p>
-          Based on my knowledge, I successfully created responsive and modern-looking websites and real-world applications using HTML & CSS, and Javascript. I currently learn <span>React.js</span> and consistently level up my existing skills.
+          Based on my knowledge, I successfully created responsive and modern-looking websites and real-world applications using HTML & CSS, and Javascript. I currently get myself more familiar with <span>React.js</span> and consistently level up my existing skills.
           </p>
           
          </div>
